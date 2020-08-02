@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Video Streaming Demonstration</title>
+    <style>
+      #CamStatus{
+        color:red;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body onload="checkCamOn()">
+    <h1 style="color:red">Live Video Feed</h1>
+    <p id="CamStatus">
+      NOTE:<br>
+      1. If screen is blank -> CAMERA NOT FOUND<br>
+      2. If screen <b>did not</b> show "Camera Loaded Successfully" Alert -> CAMERA NOT FOUND<br>
+      3. If screen <b>Freezed</b> -> CAMERA NOT FOUND<br>
+    </p>
+    <div id="camStreamDiv">
+      <img src="{{ url_for('video_feed') }}" onload="javascript: alert('Camera Loaded Successfully')"/>
+    </div>
+    <!--<img src="{{ url_for('video_feed') }}">-->
+    <script>
+    </script>
+  </body>
+</html>
