@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://miro.medium.com/max/1600/1*S8Il5ethl3YFh0M9XKVz-A.png" alt="Slate: Documentation" width="226">
-  <h1 align="center">Getting Started</h1>
+  <h1 align="center">Vehicle tracking System</h1>
   <br>
 </p>
 
